@@ -1,0 +1,12 @@
+LJWGL will need to be configured with eclipse before you are able to build M3DE.
+
+To do this, go to the project properties and select 'Java Build Path'. There you
+can switch to the 'Libraries' tab and select 'Add JAR' from the menu on the
+right. Select the three libraries in 'M3DE/lib/lwjgl-x.x.x/jar'. 
+
+Then you need to set the correct native libraries for your operating system for 
+LWJGL in eclipse. You can do this by expanding the lwjgl-x.x.x.jar item and 
+editing 'Native library location'. The natives can be found in the 'native' 
+folder in the LWJGL folder. 
+
+I believe that is about all you need to do. 
